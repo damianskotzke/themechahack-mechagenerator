@@ -214,9 +214,12 @@ export default function Home() {
         <main className="grid gap-2 lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
           <div className="lg:block md:hidden hidden border border-stone-50 h-[calc(100vh-8px)]">
             {" "}
-            <img
+            <Image
               className="h-full w-full object-cover"
-              src={`images/Mecha_${mechaImage}.png`}
+              src={`/images/Mecha_${mechaImage}.png`}
+              alt="Mecha Design"
+              width={2000}
+              height={2000}
             />
           </div>
           <div>
