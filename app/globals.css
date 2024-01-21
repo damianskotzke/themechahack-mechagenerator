@@ -30,6 +30,7 @@
   #header {
     grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
   }
+  #footer {margin-top: 24px; color: lightgray !important;}
   /* ... other styles ... */
 }
 
