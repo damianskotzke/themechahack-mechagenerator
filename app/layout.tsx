@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
+import { Analytics } from "@vercel/analytics/react";
 
 const myFont = localFont({
   src: [
@@ -31,6 +32,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${myFont.className} bg-stone-950 grid gap-2 p-2`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
