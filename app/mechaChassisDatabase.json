@@ -1,0 +1,145 @@
+[
+    {
+      "name": "Brawler",
+      "description":
+        "The brawler chassis excels at closing the distance on the battlefield and dishing out damage up close. It is designed to outlast opponents in close-quarters combat.",
+      "startingHitPointsDie": 8,
+      "startingHitPointsBonus": 4,
+      "hitDie": "d8",
+      "damageDie": "d8",
+      "reactorDie": "d6",
+      "weaponRules": "All Armor, All Weapons, Shields",
+      "armor": {
+        "name": "Light Armor",
+        "armorPoints": 2
+      },
+      "handWeapon": {
+        "name": "Laser Axe",
+        "damageBonus": 0
+      },
+      "rangedWeapon": {
+        "name": "Submachine Gun",
+        "damageBonus": 0
+      },
+      "shield": {
+        "name": "Shield",
+        "armorPoints": 3
+      },
+      "primaryAbility": {
+        "name": "Crippling Damage",
+        "description": "You score a critical success and deal critical damage on attack rolls of 1 or 2."
+      },
+      "secondaryAbility": {
+        "name": "Charging Strike",
+        "description": "As a move action, immediately move to a near enemy and make a melee attack against them. Roll your reactor die."
+      },
+      "levelUp": "Roll your hit die to gain new hit points. Roll to see if attributes increase, rolling twice for Power and Mobility. At levels 3, 6, and 9, gain a new module."
+    },
+    {
+      "name": "Scout",
+      "description":
+        "The scout is a light, quick mecha chassis, excelling at concealment and hit-and- run tactics. The scout can use its cloak generator to become hidden even without the use of cover.",
+      "startingHitPointsDie": 6,
+      "startingHitPointsBonus": 4,
+      "hitDie": "d6",
+      "damageDie": "d6",
+      "reactorDie": "d6",
+      "weaponRules": "Light Armor, Light Weapons, Shields",
+      "armor": {
+        "name": "Light Armor",
+        "armorPoints": 3
+      },
+      "handWeapon": {
+        "name": "Dagger",
+        "damageBonus": 0
+      },
+      "rangedWeapon": {
+        "name": "Revolver",
+        "damageBonus": 0
+      },
+      "shield": {
+        "name": "No shield",
+        "armorPoints": 0
+      },
+      "primaryAbility": {
+        "name": "Ambush",
+        "description": "You have advantage on attacks made while hidden, and deal 1d6 additional damage."
+      },
+      "secondaryAbility": {
+        "name": "Cloacking Field",
+        "description": "As a use action, activate your cloaking field and become hidden. Roll your reactor die."
+      },
+      "levelUp": "Roll your hit die to gain new hit points. Roll to see if attributes increase, rolling twice for Mobility and System. At levels 3, 6, and 9, gain a new module."
+    },
+    {
+      "name": "Striker",
+      "description":
+        "The striker is a well- rounded, balanced mecha chassis that excels in both combat and utility. Its reactor has the greatest capacity of all four chassis, and it has the unique ability of restoring the reactor energy of its allies.",
+      "startingHitPointsDie": 8,
+      "startingHitPointsBonus": 4,
+      "hitDie": "d8",
+      "damageDie": "d8",
+      "reactorDie": "d8",
+      "weaponRules": "Light Armor, All Weapons, Shields",
+      "armor": {
+        "name": "Light Armor",
+        "armorPoints": 3
+      },
+      "handWeapon": {
+        "name": "Sword",
+        "damageBonus": 0
+      },
+      "rangedWeapon": {
+        "name": "Submachine Gun",
+        "damageBonus": 0
+      },
+      "shield": {
+        "name": "Shield",
+        "armorPoints": 2
+      },
+      "primaryAbility": {
+        "name": "Adaptable Robotics",
+        "description": "When you roll a 20 on a test, you can choose to reroll the die. You must use the new roll."
+      },
+      "secondaryAbility": {
+        "name": "Reactor Charge",
+        "description": "As a use action, choose a close mecha. Their reactor die improves by one step, up to its maximum. Roll your reactor die."
+      },
+      "levelUp": "Roll your hit die to gain new hit points. Roll to see if attributes increase, rolling twice for System and Presence. At levels 3, 6, and 9, gain a new module."
+    },{
+      "name": "Titan",
+      "description":
+        "The titan is a heavily armored mecha chassis, relying on thick steel and brute force to outlast the enemy. They excel at absorbing damage and protecting their allies.",
+      "startingHitPointsDie": 10,
+      "startingHitPointsBonus": 4,
+      "hitDie": "d10",
+      "damageDie": "d6",
+      "reactorDie": "d6",
+      "weaponRules": "All Armor, All Weapons, Shields",
+      "armor": {
+        "name": "Heavy Armor ",
+        "armorPoints": 5
+      },
+      "handWeapon": {
+        "name": "None",
+        "damageBonus": 0
+      },
+      "rangedWeapon": {
+        "name": "Chaingun",
+        "damageBonus": 2
+      },
+      "shield": {
+        "name": "No shield",
+        "armorPoints": 0
+      },
+      "primaryAbility": {
+        "name": "Kinetic Absorbers",
+        "description": "If a close mecha would take damage, you can choose to take that damage instead."
+      },
+      "secondaryAbility": {
+        "name": "Energy Shield",
+        "description": "As a use action, choose yourself or another close or near mecha. Roll your reactor die. Once at any point before the start of their next turn, the mecha may roll 1d4 and reduce incoming damage by the result."
+      },
+      "levelUp": "Roll your hit die to gain new hit points. Roll to see if attributes increase, rolling twice for Presence and Power. At levels 3, 6, and 9, gain a new module."
+    }
+  ]

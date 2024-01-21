@@ -1,0 +1,70 @@
+[
+    {
+      "name": "Commander",
+      "description":
+        "Commanders are natural-born leaders and skilled tacticians. They represent the heart and soul of a fireteam, and lead their allies to victory against all odds.",
+      "primaryAbility": {
+        "name": "Capable Leader",
+        "power": 2,
+        "mobility": 0,
+        "system": 0,
+        "presence": 1
+      },
+      "secondaryAbility": {
+        "name": "Battle Tactis",
+        "description":
+          "As a use action, choose one close or near mecha. They can immediately take a single move or attack action that does not count towards their total actions, then your turn resumes."
+      }
+    },
+    {
+      "name": "Engineer",
+      "description":
+        "Engineers are top-notch mechanics and mecha medics. They keep their fireteam up and fighting at peak efficiency.",
+      "primaryAbility": {
+        "name": "Gearhead",
+        "power": 0,
+        "mobility": 1,
+        "system": 2,
+        "presence": 0
+      },
+      "secondaryAbility": {
+        "name": "Quick Fix",
+        "description":
+          "As a use action, reduce your AP by 1 to restore 2 HP to a close mecha."
+      }
+    },
+    {
+      "name": "Maverick",
+      "description":
+        "Mavericks are ace pilots with unmatched skill and hard-to-shake troublemaking streaks. They excel in combat, where their reckless nature can be a boon to their fireteam.",
+      "primaryAbility": {
+        "name": "Ace Pilot",
+        "power": 1,
+        "mobility": 2,
+        "system": 0,
+        "presence": 0
+      },
+      "secondaryAbility": {
+        "name": "Reckless Attack",
+        "description":
+          "When you make a successful attack, you can choose to reduce your AP by 2 to roll one additional damage die."
+      }
+    },
+    {
+      "name": "Quipster",
+      "description":
+        "At first glance, the quipster’s nonchalant demeanor might mark them as the weak link of a fireteam – but their jovial nature belies a deep, heartfelt magnitude that can boost the morale of their fireteam and ensure victory.",
+      "primaryAbility": {
+        "name": "Lovable Oaf",
+        "power": 0,
+        "mobility": 0,
+        "system": 0,
+        "presence": 2
+      },
+      "secondaryAbility": {
+        "name": "Inspiring Speech",
+        "description":
+          "As a use action, choose a close or near mecha. They can choose to gain advantage on a single test made before the start of your next turn."
+      }
+    }
+  ]
