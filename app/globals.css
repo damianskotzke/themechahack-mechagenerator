@@ -5,14 +5,14 @@
 
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('/public/JetBrainsMono-Regular.woff2') format('woff2');
+  src: url('/JetBrainsMono-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('/public/JetBrainsMono-ExtraLight.woff2') format('woff2');
+  src: url('/JetBrainsMono-ExtraLight.woff2') format('woff2');
   font-weight: 200;
   font-style: normal;
 }
@@ -33,7 +33,7 @@
     color: black !important;
     background-color: white !important;
   }
-  button, #footer {display: none;}
+  button {display: none;}
   li {border: 1px solid black !important;}
   .break-before {
     page-break-before: always !important; /* This will always start a new page before this element */
