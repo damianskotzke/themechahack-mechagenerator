@@ -5,14 +5,18 @@
 
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('/JetBrainsMono-Regular.woff2') format('woff2');
+  src: 
+    url('/JetBrainsMono-Regular.woff2') format('woff2'),
+    url('/JetBrainsMono-Regular.ttf') format('ttf');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('/JetBrainsMono-ExtraLight.woff2') format('woff2');
+  src: 
+    url('/JetBrainsMono-ExtraLight.woff2') format('woff2'),
+    url('/JetBrainsMono-ExtraLight.ttf') format('ttf');
   font-weight: 200;
   font-style: normal;
 }
