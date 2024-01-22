@@ -21,7 +21,8 @@ const myFont = localFont({
 
 export const metadata: Metadata = {
   title: "The Mecha Hack | Mecha Generator",
-  description: "Generate your own mecha",
+  description:
+    "Create your own mecha and immerse yourself in the action-packed world of The Mecha Hack tabletop RPG. Battle against kaiju, engage in thrilling space conflicts, or enjoy classic mecha battles.",
 };
 
 export default function RootLayout({
