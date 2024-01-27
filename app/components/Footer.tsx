@@ -12,7 +12,7 @@ export default function Footer(props: any) {
           The Mecha Hack © 2018 Absolute Tabletop, LLC.
         </a>{" "}
         <a
-          href="https://damianskotzke.com"
+          href="https://tablevoyager.com"
           target="blank"
           className="hover:text-stone-50"
         >
