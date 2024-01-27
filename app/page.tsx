@@ -212,7 +212,7 @@ export default function Home() {
     return (
       <>
         <main className="grid gap-2 lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
-          <div className="lg:block md:hidden hidden border border-stone-50 h-[calc(100vh-8px)]">
+          <div className="lg:block md:hidden hidden border border-stone-50 h-[calc(100vh-16px)]">
             {" "}
             <Image
               className="h-full w-full object-cover"
